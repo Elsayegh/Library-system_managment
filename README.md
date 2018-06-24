@@ -13,17 +13,28 @@ The application must be implemented on the Ruby on Rails framework, using Ruby v
  
 Basic requirements:
 •	Data entry: Each record must consist of at least 4 data fields, including book title, author(s), ISBN and Publisher. Other relevant fields may also be implemented.
+
 •	Data processing: The information of each record should be stored in a simple database that you will need to design and implement.
+
 •	User interface: Buttons, textboxes and other inputs, controls and graphics should be provided to initiate various system functions.
+
 •	Security: The application should be secured by allowing only permitted users (i.e. the librarian only, not public library users) to edit the records.
+
 •	Data display:
 o	For the librarian – a display containing a web form for allowing data entry. This should allow the librarian to manage borrowing and returning of books
+
 o	For library users - a general “higher-level” display for showing a list of currently available books. The list should be limited to 5 records per page, ordered alphabetically by title.
+
 Desirable requirements:
+
 •	Search function: search by title, author, or ISBN.
+
 •	Search results: the system should display the results and the details of an associated record accordingly.
+
 •	Provide an interface to display all the details of a particular record.
+
 •	Provide an advanced search function to allow searching by a combination of title, author, and/or ISBN, and display the results.
+
 •	Provide a means to enable reserving and returning of books.
 
 
